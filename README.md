@@ -53,7 +53,13 @@ _Note_
   
 ------------------------------------------------------------------------
 
+_To Use_
+ -Node.js (v14 or higher)
+ -npm
 
+_To install_
+ -Clone or download project
+  -git clone <
 
 
 
