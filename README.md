@@ -7,5 +7,17 @@ ___Light Theme___
 ___Dark Theme___
 
 
+<img width="540" alt="image" src="https://github.com/user-attachments/assets/caa6a95c-dfcd-4e23-9ee9-fc2efd951c16" />
+___Completed Tasks shown Filtered___
+
+------------------------------
+
+<img width="632" alt="image" src="https://github.com/user-attachments/assets/532f79d5-61a6-4d7f-a0bd-46210bb9d05a" />
+___Active Task shown filtered___
+
+
+
+
+
 
 
