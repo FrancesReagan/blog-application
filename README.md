@@ -1,5 +1,4 @@
 ___TODO APP with  React Context API__
-______________________________
 
 
 <img width="453" alt="image" src="https://github.com/user-attachments/assets/49067bea-0577-4229-bff8-116973b42a89" />
