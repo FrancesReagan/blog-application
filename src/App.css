@@ -243,3 +243,31 @@
 }
 
 /* post details page styles */
+.post-detail-container{
+  padding:20px;
+  max-width: 800px;
+  margin:0 auto;
+}
+
+.breadcrumb {
+  margin-bottom:20px;
+}
+
+.breadcrumb-link{
+  color:#2563eb;
+  text-decoration:none;
+  font-size:14px;
+  transition:color 0.2s;
+}
+
+.breadcrumb-link:hover{
+  color:#1d4ed8;
+}
+
+.post-article{
+  background-color:#ffffff;
+  border:1px solid #e5e5e5;
+  border-radius:12px;
+  padding:30px;
+  box-shadow:0 2px 8px rgba(0,0,0,0.1);
+}
