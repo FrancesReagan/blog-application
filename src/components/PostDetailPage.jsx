@@ -63,6 +63,21 @@ if (error) {
   );
 }
 
+// main render--show the post details//
+return (
+  <div className="post-detail-container">
+    {/* navigation "breadcrumb" */}
+    <div className="breadcrumb">
+      <Link to="/posts" className="breadcrumb-link">
+      ←Back to All Posts
+      </Link>
+    </div>
+
+    {/* post content */}
+    
+  </div>
+
+)
 
 
 
