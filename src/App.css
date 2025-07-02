@@ -222,3 +222,24 @@
     font-size:14px;
     color:#888;
   }
+
+  .posts-footer{
+    text-align:center;
+    margin-top:40px;
+    padding:20px;
+    background-color: #e7f3ff;
+    border-radius: 8px;
+  }
+
+.post-footer-text{
+  margin:0 0 0.5rem 0;
+  color:#1f2937;
+}
+
+.post-footer-subtext {
+  font-size:14px;
+  color:#667;
+  margin:0;
+}
+
+/* post details page styles */
