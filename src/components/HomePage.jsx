@@ -5,11 +5,11 @@ return (
   <div className="home-welcome">
     {/* main heading for home page */}
 <h1 className="home-title">
-  🏠Welcome to the Blog website</h1>
+  🪶📜𓇢𓆸 Welcome to the Poetry Blog 🪶📜𓇢𓆸</h1>
 
  {/* a friendly greeting*/}
 <p className="home-subtitle">
-  The Home Page of this multi-page React application
+  Blog-Application made with React
 </p>
   
   {/* sample content */}

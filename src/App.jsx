@@ -16,7 +16,7 @@ return (
     <div className="nav-container">
       {/* logo/brand */}
       <Link to="/" className="nav-logo"> 
-      🌟My Blog App
+      ★⌒ヽ(´ ❥ `)Poetry App
       </Link>
 
       {/* navigation links */}
@@ -25,14 +25,14 @@ return (
          to="/"
          className={`nav-link ${location.pathname === "/"?"active":""}`}
          >
-          🏠Home
+          🏰 Home
          </Link>
 
          <Link
           to="/about"
           className={`nav-link ${location.pathname === '/about'?'active':''}`}
           >
-           📋 About 
+           📒 About 
           </Link>
 
           <Link
