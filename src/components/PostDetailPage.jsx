@@ -50,8 +50,22 @@ function PostDetailPage() {
       );
     }
 
-
-
-  })
-
+// show error state//
+if (error) {
+  return (
+    <div className="error-container">
+     <h2 className="error-title">Post Not Found...</h2>
+     <p className="error-text">#{postId} could not be found...</p>
+     <Link to="/posts" className="error-button">
+      ↩ Back to All Posts
+     </Link>
+    </div>
+  );
 }
+
+
+
+
+  }
+
+
