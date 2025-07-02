@@ -14,8 +14,8 @@ function AboutPage() {
         <ul>
           <li><strong>Haiku</strong>-Saying alot by writing a little</li>
           <li><strong>Rhyme</strong>-its not outdated--falling back in love with the rhyme</li>
-          <li><strong><Limerick></Limerick></strong>-what is it anyway and where did it come from?</li>
-          <li><strong>Shakespeare--the Sonnet</strong> - genius at work--uncovering the magic of Shakespeare's</li>
+          <li><strong>Limerick</strong>-what is it anyway and where did it come from?</li>
+          <li><strong>Shakespeare--the Sonnet</strong> - genius at work--uncovering the magic of Shakespeare's Sonnets.</li>
         </ul>
       <h2>🎯 How to hit the mark everytime your write a poem:</h2>
       <p>
@@ -35,3 +35,17 @@ function AboutPage() {
 }
 
 export default AboutPage;
+
+// testing routing//
+// import React from "react";
+
+// function AboutPage() {
+//   return (
+//     <div>
+//       <h1>ABOUT PAGE TEST - THIS SHOULD SHOW UP</h1>
+//       <p>If you can see this, the routing works!</p>
+//     </div>
+//   );
+// }
+
+// export default AboutPage;
