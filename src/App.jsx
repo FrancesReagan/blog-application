@@ -47,14 +47,21 @@ return (
 );
 }
 
-function App() {
-  const [count, setCount] = useState(0)
-
+// footer component-appears at the bottom of every page//
+function Footer() {
   return (
-    <>
-     
-    </>
-  )
+    <footer className="footer">
+      <div className="footer-container">
+        <p className="footer-text">
+          🎓built with react router
+        </p>
+        <p className="footer-subtext">
+          Learning multi-page applications with react router DOM
+        </p>
+      </div>
+    </footer>
+  );
 }
 
-export default App
+
+// export default App;
