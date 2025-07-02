@@ -111,12 +111,36 @@ return (
         </div>
        )}
 
-
-
-
-
-      </header>
+    {/* post engagement section */}
+     <div className="engagement-section">
+      <h3 className="engagement-title">
+        📶 Post Engagement
+      </h3>
+       <div className="engagement-grid">
+        <div className="engagement-stat">
+          <div className="engagement-number likes">
+            {post.reactions?.likes || 0}
+          </div>
+           <div className="engagement-label">😊Likes</div>
+        </div>
+         <div className="engagement-stat">
+           <div className="engagement-number dislikes">
+            {post.reactions?.dislikes || 0}
+           </div>
+            <div className="engagement-label">😒Dislikes</div>
+         </div>
+          <div className="engagment-stat">
+            <div className="engagement-number views">
+              {post.views || "N/A"}
+            </div>
+             <div className="engagement-label">👁️Views</div>
+          </div>
+       </div>
+     </div>
     </article>
+
+
+    
   </div>
 
 )
