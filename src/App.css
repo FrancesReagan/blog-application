@@ -443,3 +443,28 @@
 .error-button:hover{
   background-color: #1d4ed8;
 }
+
+/* styles for footer */
+.footer{
+  background-color: #f9fafb;
+  border-top:1px solid #e5e7eb;
+  padding:2rem;
+  text-align:center;
+  margin-top:3rem;
+}
+
+.footer-container{
+  max-width:1200px;
+  margin:0 auto;
+}
+
+.footer-text{
+  color:#6b7280;
+  margin:0 0 1rem 0;
+}
+
+.footer-subtext{
+  color:#9ca3af;
+  font-size:14px;
+  margin:0;
+}
