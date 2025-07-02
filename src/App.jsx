@@ -63,5 +63,56 @@ function Footer() {
   );
 }
 
+// main App component//
+function App(){
+  return (
+    // BrowswerRouter enables routing for the entire app//
+    <BrowserRouter>
+    <div className="app-container">
+      {/* navigation appears on all pages */}
+      <Navigation/>
 
-// export default App;
+      {/* main content area */}
+      <main className="main-content">
+         {/* routes define which component to show for each URL */}
+        <Routes>
+        {/* home page -shows when URL is exactly "/" */}
+      <Route path="/" element={<HomePage/>}/>
+
+      {/* about page -shows when URL is "/about" */}
+      <Route path="/about" element={<AboutPage/>}/>
+
+      {/* post detail page - shows when URL is "/posts/123" */}
+      <Route path="/posts/:postId" element={<PostDetailPage/>}/>
+
+      {/* catch-all route for 404 pages */}
+      <Route path="*" element={<NotFoundPage/>}/>
+      </Routes>
+      </main>
+    </div>
+    </BrowserRouter>
+  );
+}
+
+// 404 not found page component//
+function NotFoundPage(){
+  return (
+    <div className="not-found-container">
+      <h1 className="not-found-emoji">🤔</h1>
+      <h2 className="not-found-title">
+        Oops! Page Not Found
+      </h2>
+      <div className="not-found-buttons">
+      <Link to="/" className="not-found-button primary">
+        🏠 Go Home
+      </Link>
+
+      <Link to="/posts" className="not-found-button secondary">
+       📝 Browse Posts
+      </Link>
+      </div>
+    </div>
+  );
+}
+
+export default App;
