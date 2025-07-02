@@ -61,7 +61,7 @@ function PostsPage() {
         <div className="posts-header">
           <h1 className="posts-title">Latest Posts</h1>
           <p className="posts-subtitle">
-            Click on post title of your choice to read full article
+            Click on post title of your choice to read full writing blog post
           </p>
         </div>
 

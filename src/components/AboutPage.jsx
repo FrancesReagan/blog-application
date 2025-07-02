@@ -8,24 +8,24 @@ function AboutPage() {
       {/* main content section */}
       <div className="about-section">
         <p>
-          Welcome to this Poetry Blog. This blog is about writing poetry and what inspires humans to write poems.
+          Welcome to this Favorite Writers/Writings Blog. This blog is about writing and what inspires humans to write.
         </p>
-       <h2>Poems:</h2>
+       <h2>Writing:</h2>
         <ul>
-          <li><strong>Haiku</strong>-Saying alot by writing a little</li>
+          <li><strong>The Muses</strong>-the inspiration to write where does it come from?</li>
           <li><strong>Rhyme</strong>-its not outdated--falling back in love with the rhyme</li>
           <li><strong>Limerick</strong>-what is it anyway and where did it come from?</li>
           <li><strong>Shakespeare--the Sonnet</strong> - genius at work--uncovering the magic of Shakespeare's Sonnets.</li>
         </ul>
-      <h2>🎯 How to hit the mark everytime your write a poem:</h2>
+      <h2>🎯 How to hit the mark everytime you sit down to write:</h2>
       <p>
-        It's more than just a feeling. Discover the real science behind poetry and how easy it is to 
-        write a poem that affects more than the ears--but also the heart and the soul.
+        It's more than just a feeling. Discover the real science behind writing and how easy it is to 
+        write in a way that affects the heart and the soul.
       </p>
 
       <div className="fun-fact-box">
-        <h3> 💡 Poetry Fun Fact:,</h3>
-        <p>Poetry is not just for lovers, it has saved nations, calmed war time tensions, and wooed many
+        <h3> 💡 Writing Fun Fact:,</h3>
+        <p>Writing is not frivalous, it has saved nations, calmed war time tensions, and wooed many
           famous women and men.</p>
 
       </div>
