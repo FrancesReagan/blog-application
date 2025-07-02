@@ -80,4 +80,41 @@
     margin:0 auto;
   }
 
-  
+  /* Home page styles */
+  .home-welcome{
+    padding:20px;
+    text-align:center;
+  }
+
+  .home-title{
+    color:#1f2937;
+    margin-bottom:1rem;
+  }
+
+  .home-subtitle {
+    font-size: 18px;
+    color:#667;
+    margin-bottom: 2rem;
+  }
+
+  .home-features {
+    margin-top:30px;
+  }
+
+  .home-features h2{
+    color:#374151;
+    margin-bottom:1rem;
+  }
+
+  .features-list {
+    list-style:none;
+    padding: 0;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+
+  .features-list li {
+    padding:0.5rem 0;
+    font-size:16px;
+    color:#4b5563;
+  }
