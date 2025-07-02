@@ -57,29 +57,33 @@ function PostsPage() {
        }
       // main render - show the list of posts//
       return (
-        <div className="page-container">
+      <div className="page-container">
         <div className="posts-header">
           <h1 className="posts-title">Latest Posts</h1>
           <p className="posts-subtitle">
             Click on post title of your choice to read full article
           </p>
         </div>
-        {/* container for all posts */}
-        <div className="posts-grid">
+
+          {/* container for all posts */}
+          <div className="posts-grid">
           {posts.map((post) => (
             // each post wrapped in card container//
-            <div key={post.id} className="post-card"> 
+          <div key={post.id} className="post-card"> 
+
             {/* post title as a clickable link */}
             <h2 className="post-title">
               <Link to={`/posts/${post.id}`} className="post-title-link">
               {post.title}
               </Link>
             </h2>
+
             {/* post preview/body text shortened */}
-            <p className="post-preview">
-              {post.body.length>150?post.body.substring(0,150) + "..."
-              : post.body}
+              <p className="post-preview">
+               {post.body.length>150?post.body.substring(0,150) + "..."
+               : post.body}
               </p>
+
           {/* post metadata..likes */}
           <div className="post-metadata">
             <span>😊,👍{post.reactions.likes}</span>
@@ -89,4 +93,16 @@ function PostsPage() {
       ))}
     </div>
 
+    {/* footer message */}
+    <div className="posts-footer">
+      <p className="posts-footer-text">📚 Showing{posts.length} posts from DummyJSON API</p>
+      <p className="posts-footer-subtext">
+         This data is fetched in real-time from https://dummyjson.com/posts
+      </p>
+    </div>
+  </div>
+    );
+}
+
+export default PostsPage;
   
