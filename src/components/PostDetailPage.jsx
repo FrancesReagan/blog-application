@@ -90,7 +90,26 @@ return (
         </div>
       </header>
 
-      
+      {/* post body content */}
+      <div className="post-content">
+        <p>{post.body}</p>
+      </div>
+
+      {/* post tags (if available) */}
+       {post.tags && post.tags.length > 0 && (
+        <div className="tags-section">
+          <h3 className="tags-title">
+            🔖Tags:
+          </h3>
+          <div className="tags-container">
+            {post.tags.map((tag,index) => (
+              <span key={index} className="tag">
+                {tag}
+              </span>
+            ))}
+          </div>
+        </div>
+       )}
 
 
 
