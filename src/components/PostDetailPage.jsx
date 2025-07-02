@@ -74,7 +74,30 @@ return (
     </div>
 
     {/* post content */}
-    
+    <article className="post-article">
+      {/* post header */}
+      <header className="post-header">
+        <h1 className="post-main-title">
+          {post.title}
+        </h1>
+
+        {/* post metadata */}
+        <div className="post-meta">
+          <span>📜Post #{post.id}</span>
+          <span>👨🏻‍💻User ID: {post.userId}</span>
+          <span>😊 {post.reactions?.likes || 0}likes</span>
+          <span>😒{post.reactions?.dislikes || 0} dislikes</span>
+        </div>
+      </header>
+
+      
+
+
+
+
+
+      </header>
+    </article>
   </div>
 
 )
