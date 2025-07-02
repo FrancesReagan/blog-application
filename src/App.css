@@ -590,6 +590,20 @@
     .home-title{
       font-size:1.5rem;
     }
-    
-  }
-}
+
+    .post-title-link{
+      font-size:18px;
+    }
+
+    .post-title-link{
+      font-size:18px;
+    }
+
+    .post-article{
+      padding:15px;
+    }
+
+    .not-found-emoji{
+      font-size:48px;
+    }
+  }}
