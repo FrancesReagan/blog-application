@@ -3,7 +3,7 @@ import {Link} from "react-router-dom";
 
 function PostsPage() {
   // state to store the posts data//
-  const [post, setPosts] = useState([]);
+  const [posts, setPosts] = useState([]);
   // state to track if user is still loading data//
   const [loading, setLoading] = useState(true);
   // state to handle any eroors that could occur//
@@ -15,7 +15,7 @@ function PostsPage() {
     const fetchPosts = async () => {
       try {
     // making a requset to the DummyJson API//
-    const response = await fetch('http://dummyjson.com/posts');
+    const response = await fetch('https://dummyjson.com/posts');
     // check if the request was successful//
     if (!response.ok) {
       throw new Error(`Failed to fetch posts`);

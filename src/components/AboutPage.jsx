@@ -14,13 +14,13 @@ function AboutPage() {
         <ul>
           <li><strong>Haiku</strong>-Saying alot by writing a little</li>
           <li><strong>Rhyme</strong>-its not outdated--falling back in love with the rhyme</li>
-          <li><strong>Lymrick</strong>-what is it anyway and where did it come from?</li>
-          <li><strong>Shakespeare--the Sonnet</strong>-genius at work --uncovering the magic of Shakespeare's <Sonnets></Sonnets></li>
+          <li><strong><Limerick></Limerick></strong>-what is it anyway and where did it come from?</li>
+          <li><strong>Shakespeare--the Sonnet</strong> - genius at work--uncovering the magic of Shakespeare's</li>
         </ul>
       <h2>🎯 How to hit the mark everytime your write a poem:</h2>
       <p>
-        It's more then just a feeling. Discover the real science between poetry and how easy it is to 
-        write a poem that is affects more then the ears--but also the heart and the soul.
+        It's more than just a feeling. Discover the real science behind poetry and how easy it is to 
+        write a poem that affects more than the ears--but also the heart and the soul.
       </p>
 
       <div className="Poetry fun-facts">

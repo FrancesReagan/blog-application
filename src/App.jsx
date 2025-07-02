@@ -82,6 +82,9 @@ function App(){
       {/* about page -shows when URL is "/about" */}
       <Route path="/about" element={<AboutPage/>}/>
 
+      {/* posts page - shows when URL is "/posts" */}
+      <Route path="/posts" element={<PostsPage/>}/>
+
       {/* post detail page - shows when URL is "/posts/123" */}
       <Route path="/posts/:postId" element={<PostDetailPage/>}/>
 
