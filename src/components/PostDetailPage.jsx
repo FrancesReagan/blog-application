@@ -1,5 +1,5 @@
 // PostDetailPage//
-import React, { use } from "react";
+
 import { useState, useEffect } from "react";
 import { useParams,Link} from "react-router-dom";
 
@@ -14,7 +14,7 @@ function PostDetailPage() {
   const [loading, setLoading] = useState(true);
 
   // state to handle errors//
-  const [error, setError] = useState("null");
+  const [error, setError] = useState(null);
 
   // fetch a specific post when the component loads or postId changes//
   useEffect(() => {
@@ -38,7 +38,7 @@ function PostDetailPage() {
 
       fetchPost();
       // re-run if postId changes//
-    },[postId];
+    },[postId]);
 
     // show loading state//
     if (loading) {
@@ -65,7 +65,7 @@ if (error) {
 
 // main render--show the post details//
 return (
-  <header className="post-detail-container">
+  <div className="post-detail-container">
     {/* navigation "breadcrumb" */}
     <div className="breadcrumb">
       <Link to="/posts" className="breadcrumb-link">
@@ -85,7 +85,7 @@ return (
         <div className="post-meta">
           <span>📜Post #{post.id}</span>
           <span>👨🏻‍💻User ID: {post.userId}</span>
-          <span>😊 {post.reactions?.likes || 0}likes</span>
+          <span>😊 {post.reactions?.likes || 0} likes</span>
           <span>😒{post.reactions?.dislikes || 0} dislikes</span>
         </div>
       </header>
@@ -129,7 +129,7 @@ return (
            </div>
             <div className="engagement-label">😒Dislikes</div>
          </div>
-          <div className="engagment-stat">
+          <div className="engagement-stat">
             <div className="engagement-number views">
               {post.views || "N/A"}
             </div>
@@ -154,7 +154,7 @@ return (
  <div className="nav-spacer"></div>
 
  {/* next post button */}
-  <Link to={`/posts${parseInt(postId) + 1}`}
+  <Link to={`/posts/${parseInt(postId) + 1}`}
     className="nav-button primary"
     >
       Next Post ➡
