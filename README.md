@@ -29,9 +29,11 @@ React Development
 •	React Official Documentation - https://react.dev/ 
 o	Used for understanding React hooks, state management, and component lifecycle
 o	Referenced for useState and useEffect best practices
+
 •	React Router Documentation - https://reactrouter.com/ 
 o	Implemented for client-side routing and navigation
 o	Used BrowserRouter, Routes, Route, Link, and useLocation hooks
+
 •	Create React App Documentation - https://create-react-app.dev/ 
 o	Referenced for project setup and build configuration
 
@@ -44,8 +46,10 @@ o	Async/Await Syntax - https://developer.mozilla.org/en-US/docs/Web/JavaScript/R
 CSS & Styling
 •	CSS-Tricks Complete Guide to Grid - https://css-tricks.com/snippets/css/complete-guide-grid/ 
 o	Used for responsive post layout grid system
+
 •	CSS-Tricks Flexbox Guide - https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
 o	Implemented for navigation and layout alignment
+
 •	CSS Media Queries - https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries 
 o	Used for responsive design implementation
 
@@ -53,6 +57,7 @@ API & Data Sources
 •	DummyJSON API - https://dummyjson.com/ 
 o	Provides mock blog post data for demonstration purposes
 o	Used endpoints: /posts and /posts/{id}
+
 •	JSON.parse() Documentation - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse
 
 Error Handling & Best Practices
@@ -62,6 +67,7 @@ Error Handling & Best Practices
 Development Tools
 •	Vite Documentation - https://vitejs.dev/ 
 o	Used as build tool and development server
+
 •	NPM Documentation - https://docs.npmjs.com/ 
 o	Package management and dependency installation
 
