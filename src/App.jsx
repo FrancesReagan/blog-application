@@ -23,12 +23,28 @@ return (
       <div className="nav-links">
         <Link
          to="/"
+         className={`nav-link ${location.pathname === "/"?"active":""}`}
+         >
+          🏠Home
+         </Link>
+
+         <Link
+          to="/about"
+          className={`nav-link ${location.pathname === '/about'?'active':''}`}
+          >
+           📋 About 
+          </Link>
+
+          <Link
+           to="/posts"
+           className={`nav-link ${location.pathname.startsWith('/posts')?'active':''}`}
+           >
+            📝Posts
+           </Link>
       </div>
     </div>
   </nav>
-)
-
-
+);
 }
 
 function App() {
