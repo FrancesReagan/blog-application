@@ -75,9 +75,18 @@ function PostsPage() {
               {post.title}
               </Link>
             </h2>
-          }
+            {/* post preview/body text shortened */}
+            <p className="post-preview">
+              {post.body.length>150?post.body.substring(0,150) + "..."
+              : post.body}
+              </p>
+          {/* post metadata..likes */}
+          <div className="post-metadata">
+            <span>😊,👍{post.reactions.likes}</span>
+            <span>📜Post #{post.id}</span>
         </div>
-        </div>
-      )
+      </div>
+      ))}
+    </div>
 
   
