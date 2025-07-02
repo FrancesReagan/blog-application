@@ -65,7 +65,7 @@ if (error) {
 
 // main render--show the post details//
 return (
-  <div className="post-detail-container">
+  <header className="post-detail-container">
     {/* navigation "breadcrumb" */}
     <div className="breadcrumb">
       <Link to="/posts" className="breadcrumb-link">
@@ -137,7 +137,7 @@ return (
           </div>
        </div>
      </div>
-    </article>
+  </article>
 
 {/* navigation buttons */}
  <div className="post-navigation">
@@ -150,15 +150,20 @@ return (
       </Link>
   )}
 
+{/* spacer for nav */}
+ <div className="nav-spacer"></div>
 
- </div>
-
+ {/* next post button */}
+  <Link to={`/posts${parseInt(postId) + 1}`}
+    className="nav-button primary"
+    >
+      Next Post ➡
+  </Link>
   </div>
+</div>
+);
+}
 
-)
-
-
-
-  }
+export default PostDetailPage;
 
 
