@@ -139,8 +139,20 @@ return (
      </div>
     </article>
 
+{/* navigation buttons */}
+ <div className="post-navigation">
+  {/* previous post button */}
+  {parseInt(postId) > 1 && (
+    <Link to={`/posts/${parseInt(postId) - 1}`}
+      className="nav-button secondary"
+      >
+       ⬅ Previous Post
+      </Link>
+  )}
 
-    
+
+ </div>
+
   </div>
 
 )
