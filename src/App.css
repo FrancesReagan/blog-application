@@ -403,3 +403,43 @@
   transform:translateY(-1px);
   box-shadow:0 2px 8px rgba(0,0,0,0.15);
 }
+
+/* styles for loading and error states */
+.loading-container,
+.error-container{
+  padding:20px;
+  text-align:center;
+}
+
+.loading-title,
+.error-title{
+  color:#374151;
+  margin-bottom:1rem;
+}
+
+.loading-text{
+  color:#6b7280;
+}
+
+.error-container{
+  color:#dc2626;
+}
+
+.error-text{
+  margin-bottom:1.5rem;
+}
+
+.error-button{
+  display:inline-block;
+  margin-top:20px;
+  padding:10px 20px;
+  background-color: #2563eb;
+  color:white;
+  text-decoration:none;
+  border-radius:5px;
+  transition:background-color 0.2s;
+}
+
+.error-button:hover{
+  background-color: #1d4ed8;
+}
