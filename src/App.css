@@ -1,6 +1,49 @@
 /* layout components */
 
  /* main app container */
+/* override index.css---as a quick fix */
+
+html {
+  font-size: 18px !important;
+}
+
+body {
+  font-size: 18px !important;
+}
+
+* {
+  font-size: inherit !important;
+}
+
+/* Override specific elements */
+.home-title {
+  font-size: 4.5rem !important;
+}
+
+.home-subtitle {
+  font-size: 3.2rem !important;
+}
+
+.home-features h2 {
+  font-size: 3rem !important;
+}
+.features-list li {
+  font-size: 2.1rem !important;
+}
+
+.nav-logo {
+  font-size: 2.5rem !important;
+}
+
+.nav-link {
+  font-size: 2rem !important;
+}
+
+body {
+  display: block !important;
+  place-items: unset !important;
+}
+
  .app-container{
   min-height: 100vh;
   display:flex;
@@ -54,12 +97,12 @@
 
  .nav-link:hover{
   background-color: rgba(96,165,250,0.1);
-  color:#60a5fa;
+  color:#ebf1f8;
  }
 
  .nav-link.active{
   background-color: rgba(96,165,250,0.1);
-  color:#60a5fa;
+  color:#2579e1;
  }
 
  /* page containers */
@@ -98,12 +141,13 @@
   }
 
   .home-features {
-    margin-top:30px;
+    margin-top:40px;
   }
 
   .home-features h2{
     color:#374151;
     margin-bottom:1rem;
+    font-size: 2rem;
   }
 
   .features-list {
